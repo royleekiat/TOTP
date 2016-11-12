@@ -10,6 +10,7 @@ Modification of TOTP code by ietf to produce RFC 6238 TOTP of max 10 characters.
 
 #Example run (Windows CMD):
 >javac TOTP.java
+
 >java TOTP 10 726F796B69617440686F746D61696C2E636F6D4844454348414C4C454E4745303033
 
 * P.S default is HMAC 512, you can edit the code yourself to use other hash methods.
